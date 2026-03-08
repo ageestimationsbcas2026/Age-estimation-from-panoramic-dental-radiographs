@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dados do Artigo | Redes Neurais Profundas para classificar imagens de radiografias odontológica panorâmica</title>
-  <meta name="description" content="Página de disponibilização de dados e metodologia do artigo sobre classificação de grupos etários a partir de radiografias panorâmicas odontológicas." />
+  <meta name="description" content="Página de disponibilização de dados, metodologia e materiais suplementares do artigo sobre classificação de grupos etários a partir de radiografias panorâmicas odontológicas." />
   <style>
     :root{
       --bg:#f6f8fb;
@@ -56,7 +56,7 @@
     }
 
     .subtitle{
-      max-width:920px;
+      max-width:900px;
       color:rgba(255,255,255,0.92);
       font-size:1.05rem;
       margin:0;
@@ -73,23 +73,15 @@
       margin:24px 0 32px;
     }
 
-    .card, .section{
+    .card{
       background:var(--card);
       border:1px solid var(--border);
       border-radius:18px;
+      padding:22px;
       box-shadow:0 8px 24px rgba(15, 23, 42, 0.05);
     }
 
-    .card{
-      padding:22px;
-    }
-
-    .section{
-      padding:26px;
-      margin-bottom:22px;
-    }
-
-    .card h2, .section h2{
+    .card h2{
       margin-top:0;
       font-size:1.25rem;
     }
@@ -163,6 +155,7 @@
       border-radius:14px;
       overflow:auto;
       font-size:0.95rem;
+      white-space:pre-wrap;
     }
 
     ul{
@@ -183,8 +176,8 @@
       <span class="badge">Disponibilização de dados e materiais suplementares</span>
       <h1>Redes Neurais Profundas para classificar imagens de radiografias odontológica panorâmica na perspectiva de grupos etários: Um estudo exploratório</h1>
       <p class="subtitle">
-        Esta página reúne a metodologia adotada no estudo, os materiais suplementares e o acesso ao conjunto de dados
-        utilizado nos experimentos com radiografias panorâmicas odontológicas.
+        Esta página reúne os dados, materiais complementares e informações necessárias para apoiar a transparência, a
+        reprodutibilidade e a consulta aos recursos associados ao artigo.
       </p>
     </div>
   </header>
@@ -195,95 +188,108 @@
         <article class="card">
           <h2>Resumo</h2>
           <p>
-            Este estudo investiga o uso de arquiteturas de redes neurais profundas para classificar grupos etários
-            a partir de radiografias panorâmicas odontológicas, com enfoque exploratório e análise comparativa de desempenho.
+            Este estudo investiga o uso de arquiteturas de redes neurais profundas para a classificação de grupos etários
+            a partir de radiografias panorâmicas odontológicas, com foco em uma análise exploratória do desempenho dos modelos.
           </p>
         </article>
 
         <article class="card">
           <h2>Objetivo da página</h2>
           <p>
-            Disponibilizar os dados e materiais complementares do artigo, promovendo transparência científica,
-            acesso aberto e apoio à reprodutibilidade metodológica.
+            Disponibilizar os dados e materiais suplementares relacionados ao artigo, favorecendo o acesso aberto e a
+            replicação metodológica por outros pesquisadores.
           </p>
         </article>
 
         <article class="card">
-          <h2>Uso acadêmico</h2>
+          <h2>Licença e uso</h2>
           <p>
-            Os materiais aqui apresentados destinam-se prioritariamente a fins acadêmicos e científicos, devendo
-            respeitar as restrições éticas e institucionais aplicáveis.
+            Antes de reutilizar os materiais, verifique as restrições éticas, institucionais e legais associadas ao conjunto de dados.
           </p>
         </article>
       </section>
 
-      <section class="section">
+      <section class="card" style="margin-bottom:22px;">
         <h2>Metodologia adotada no trabalho</h2>
         <p>
-          A figura abaixo apresenta uma visão geral da metodologia adotada no estudo, contemplando os bancos de imagens,
-          o ambiente de desenvolvimento, as etapas de pré-processamento, aumento de dados, arquiteturas avaliadas,
-          validação e métricas de avaliação.
+          A figura a seguir apresenta uma visão geral da metodologia adotada no estudo, incluindo os bancos de imagens
+          utilizados, o ambiente de desenvolvimento, as etapas de pré-processamento, aumento de dados, arquiteturas
+          avaliadas e as métricas de avaliação empregadas.
         </p>
 
         <img
           class="methodology-image"
           src="https://github.com/ageestimationsbcas2026/Age-estimation-from-panoramic-dental-radiographs/blob/main/config_estudo.png?raw=true"
-          alt="Figura com a metodologia adotada no estudo"
+          alt="Metodologia do estudo"
         />
 
         <p class="caption">
-          Figura – Configuração metodológica adotada no estudo para classificação de grupos etários a partir de
-          radiografias panorâmicas odontológicas utilizando redes neurais profundas.
+          Figura – Configuração metodológica adotada no estudo para classificação de faixas etárias a partir de radiografias panorâmicas odontológicas utilizando redes neurais profundas.
         </p>
       </section>
 
-      <section class="section">
-        <h2>Disponibilização dos arquivos</h2>
+      <section class="card" style="margin-bottom:22px;">
+        <h2>Arquivos disponíveis</h2>
         <p class="muted">
-          Atualize os links abaixo com os endereços finais do seu repositório, do artigo e do arquivo compactado do dataset.
+          Atualize os links abaixo com os endereços corretos do seu repositório, pasta de dados, artigo ou materiais suplementares.
         </p>
 
         <div class="links">
-          <a class="btn" href="DATASET_LINK_AQUI.zip" target="_blank" rel="noopener noreferrer">Baixar dataset de radiografias panorâmicas (ZIP)</a>
-          <a class="btn secondary" href="https://github.com/ageestimationsbcas2026/Age-estimation-from-panoramic-dental-radiographs" target="_blank" rel="noopener noreferrer">Acessar repositório do projeto</a>
+          <a class="btn" href="DATASET_LINK_AQUI.zip" target="_blank" rel="noopener noreferrer">Baixar conjunto de dados (ZIP)</a>
+          <a class="btn secondary" href="https://github.com/ageestimationsbcas2026/Age-estimation-from-panoramic-dental-radiographs" target="_blank" rel="noopener noreferrer">Acessar código-fonte</a>
           <a class="btn secondary" href="#" target="_blank" rel="noopener noreferrer">Ler o artigo</a>
           <a class="btn secondary" href="#" target="_blank" rel="noopener noreferrer">Materiais suplementares</a>
         </div>
 
         <div class="highlight">
-          <strong>Importante:</strong> substitua o link <code>DATASET_LINK_AQUI.zip</code> pelo endereço real do arquivo ZIP com as imagens das radiografias panorâmicas utilizadas no estudo.
+          <strong>Importante:</strong> substitua <code>DATASET_LINK_AQUI.zip</code> pelo link real do arquivo ZIP com as imagens das radiografias panorâmicas utilizadas no estudo.
         </div>
       </section>
 
-      <section class="section">
-        <h2>Descrição do dataset</h2>
+      <section class="card" style="margin-bottom:22px;">
+        <h2>Descrição dos dados</h2>
         <p>
-          O conjunto de dados contém imagens de radiografias panorâmicas odontológicas utilizadas nos experimentos
-          de classificação por grupos etários descritos no artigo.
+          O conjunto de dados é composto por imagens de radiografias panorâmicas odontológicas organizadas para análise de classificação etária.
+          Recomenda-se informar aqui a estrutura dos arquivos, o formato das imagens, o critério de rotulagem e eventuais procedimentos de
+          anonimização.
         </p>
         <ul>
           <li>Tipo de dado: imagens de radiografias panorâmicas odontológicas</li>
-          <li>Finalidade: classificação de grupos etários</li>
-          <li>Formato de disponibilização: arquivo compactado em ZIP</li>
-          <li>Aplicação: apoio à análise, replicação e comparação experimental</li>
+          <li>Formato sugerido: JPG, PNG ou TIFF</li>
+          <li>Organização sugerida: por faixas etárias ou por metadados em planilha auxiliar</li>
+          <li>Cuidados: anonimização, ética em pesquisa e restrições de compartilhamento</li>
         </ul>
       </section>
 
-      <section class="section">
-        <h2>Observações éticas</h2>
+      <section class="card" style="margin-bottom:22px;">
+        <h2>Como citar</h2>
         <p>
-          Os dados devem ser compartilhados e utilizados em conformidade com os procedimentos de anonimização,
-          com os critérios éticos aplicáveis à pesquisa e com as normas institucionais relacionadas ao uso de dados biomédicos.
+          Utilize a referência do artigo e, se desejar, adicione também a citação do conjunto de dados.
+        </p>
+        <pre>@article{seu_artigo_2026,
+  title   = {Redes Neurais Profundas para classificar imagens de radiografias odontológica panorâmica na perspectiva de grupos etários: Um estudo exploratório},
+  author  = {AUTOR 1 and AUTOR 2 and AUTOR 3},
+  journal = {Nome do periódico ou evento},
+  year    = {2026}
+}</pre>
+      </section>
+
+      <section class="card" style="margin-bottom:22px;">
+        <h2>Informações metodológicas</h2>
+        <p>
+          Nesta seção, você pode acrescentar detalhes sobre o pré-processamento das imagens, as arquiteturas avaliadas,
+          as métricas de desempenho, a estratégia de divisão entre treino, validação e teste e outros parâmetros
+          relevantes para reprodutibilidade.
         </p>
       </section>
 
-      <section class="section">
-        <h2>Como citar</h2>
+      <section class="card">
+        <h2>Contato</h2>
         <p>
-          Caso você utilize os dados ou os materiais disponibilizados nesta página, cite o artigo associado:
+          Para dúvidas, solicitações acadêmicas ou informações adicionais sobre o conjunto de dados, inclua aqui um e-mail institucional
+          ou outra forma oficial de contato.
         </p>
-        <pre>Redes Neurais Profundas para classificar imagens de radiografias odontológica panorâmica
-na perspectiva de grupos etários: Um estudo exploratório</pre>
+        <p><strong>E-mail:</strong> seuemail@instituicao.br</p>
       </section>
     </div>
   </main>
