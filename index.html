@@ -247,20 +247,112 @@
       </section>
 
       <section class="card" style="margin-bottom:22px;">
-        <h2>Descrição dos dados</h2>
-        <p>
-          O conjunto de dados é composto por imagens de radiografias panorâmicas odontológicas organizadas para análise de classificação etária.
-          Recomenda-se informar aqui a estrutura dos arquivos, o formato das imagens, o critério de rotulagem e eventuais procedimentos de
-          anonimização.
-        </p>
-        <ul>
-          <li>Tipo de dado: imagens de radiografias panorâmicas odontológicas</li>
-          <li>Formato sugerido: JPG, PNG ou TIFF</li>
-          <li>Organização sugerida: por faixas etárias ou por metadados em planilha auxiliar</li>
-          <li>Cuidados: anonimização, ética em pesquisa e restrições de compartilhamento</li>
-        </ul>
-      </section>
+<h2>Exemplo de instância do banco de imagens</h2>
 
+<p>
+As tabelas a seguir apresentam um exemplo de instância do banco de imagens utilizado
+no estudo. A imagem selecionada possui identificação <strong>27_60A_M</strong>, indicando
+um paciente com <strong>60 anos de idade</strong>, do sexo <strong>masculino</strong>, cuja
+radiografia panorâmica apresenta <strong>25 dentes permanentes identificados</strong>.
+</p>
+
+<p>
+Além das características gerais da imagem, também foi realizada a identificação
+individual dos dentes utilizando a <strong>Nomenclatura Dental da Federação Dentária
+Internacional (FDI)</strong>. Essa nomenclatura divide a arcada dentária em quatro
+regiões: parte superior direita, parte superior esquerda, parte inferior direita
+e parte inferior esquerda.
+</p>
+
+<p>
+Para cada dente foi registrada sua condição, utilizando os seguintes códigos:
+</p>
+
+<ul>
+<li><strong>1</strong> – Dente presente</li>
+<li><strong>0</strong> – Dente ausente</li>
+<li><strong>2</strong> – Dente incluso (retido na gengiva)</li>
+<li><strong>3</strong> – Resto radicular</li>
+<li><strong>4</strong> – Implante dentário</li>
+<li><strong>5</strong> – Traumatismo dentário</li>
+</ul>
+
+<p>
+No exemplo apresentado, os dentes <strong>15, 14, 48, 45, 41, 35 e 38</strong>
+estão ausentes, enquanto o dente <strong>23</strong> encontra-se incluso.
+</p>
+
+</section>
+
+
+<section class="card" style="margin-bottom:22px;">
+<h2>Identificação da imagem</h2>
+
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+<thead style="background:#f1f5f9;">
+<tr>
+<th style="padding:10px;border:1px solid #ddd;">Numeração da imagem</th>
+<th style="padding:10px;border:1px solid #ddd;">Idade</th>
+<th style="padding:10px;border:1px solid #ddd;">Sexo</th>
+<th style="padding:10px;border:1px solid #ddd;">Quantidade de dentes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="padding:10px;border:1px solid #ddd;">27_60A_M</td>
+<td style="padding:10px;border:1px solid #ddd;">60</td>
+<td style="padding:10px;border:1px solid #ddd;">M</td>
+<td style="padding:10px;border:1px solid #ddd;">25</td>
+</tr>
+</tbody>
+</table>
+
+</section>
+
+
+
+<section class="card" style="margin-bottom:22px;">
+<h2>Identificação dos dentes na imagem</h2>
+
+<table style="width:100%; border-collapse:collapse; text-align:center; font-size:13px;">
+<thead>
+
+<tr style="background:#f8fafc;">
+<th colspan="8">Parte superior direita</th>
+<th colspan="8">Parte superior esquerda</th>
+<th colspan="8">Parte inferior direita</th>
+<th colspan="8">Parte inferior esquerda</th>
+</tr>
+
+<tr style="background:#e2e8f0;">
+<td>18</td><td>17</td><td>16</td><td>15</td><td>14</td><td>13</td><td>12</td><td>11</td>
+
+<td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+
+<td>48</td><td>47</td><td>46</td><td>45</td><td>44</td><td>43</td><td>42</td><td>41</td>
+
+<td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td>
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+
+<td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+
+<td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td>
+
+<td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td>
+</tr>
+
+</tbody>
+</table>
+
+</section>
       <section class="card" style="margin-bottom:22px;">
         <h2>Como citar</h2>
         <p>
